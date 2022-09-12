@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Trabajo Práctico</title>
+    <title>Trabajo Práctico 1</title>
   </head>
   <body>
     <h3>Realizar los siguientes ejercicios:</h3>
@@ -61,11 +61,11 @@
         $altura = 12;
         $perimetro = $base * 2 + $altura * 2;
         $area = $base * $altura;
-        echo "el perimetro del rectangulo es: ", $perimetro;
+        echo "el perimetro del rectangulo es: ", $perimetro, " cm.";
         ?>
         <br>
         <?php
-        echo "el area del rectangulo es: ", $area;
+        echo "el area del rectangulo es: ", $area, " cm.";
          ?>
          <br><br>
         <li>Calcular el perímetro y el área de un círculo dado que su radio es de 30cm.</li>
@@ -74,11 +74,11 @@
         $radio = 30;
         $perimetro_circulo = 2 * $pi * $radio;
         $area_circulo = $pi * $radio**2;
-        echo "el perimetro del circulo es: ", $perimetro_circulo;
+        echo "el perimetro del circulo es: ", $perimetro_circulo, " cm.";
         ?>
         <br>
         <?php
-        echo "el area del circulo es: ", $area_circulo;
+        echo "el area del circulo es: ", $area_circulo, " cm.";
          ?>
       </ol>
       <br><hr>
